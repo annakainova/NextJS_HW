@@ -38,5 +38,14 @@ a:hover {
 }
 
 .active {
-  color:cadetblue;
+  color: cadetblue;
+}
+
+ul,
+form {
+  margin-left: 40px;
+}
+
+input {
+  margin-left: 25px;
 }
