@@ -1,0 +1,16 @@
+.storybook-input--standard {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.storybook-input--outlined {
+  outline: 0.5px solid #ccc;
+}
+
+.storybook-input--filled {
+  background-color: #e0e2e8;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}

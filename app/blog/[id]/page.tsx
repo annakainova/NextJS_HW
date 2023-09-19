@@ -1,3 +1,4 @@
+import { DeleteButton } from "@/components/DeleteButton";
 import { Metadata } from "next";
 
 async function getData(id: string) {
@@ -31,6 +32,7 @@ export default async function Post({ params: { id } }: Props) {
     <>
       <h1>{post.title}</h1>
       <p>{post.body}</p>
+      <DeleteButton id={id}></DeleteButton>
     </>
   );
 }
